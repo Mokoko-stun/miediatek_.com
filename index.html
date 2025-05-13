@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MieDiatek</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><span>Mie</span>Diatek.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search-here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart Section Start -->
+      <div class="shopping-cart"></div>
+      <!-- Shopping Cart Section End -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1><span>Boost</span> Rasa <span>Overclock</span> Kenikmatan</h1>
+        <p>Siap menghangatkan hari-harimu</p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+
+    <!-- Hero Section End -->
+
+    <!-- About Section Start-->
+    <section id="about" class="about">
+      <h2>Tentang Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih MieDiatek?</h3>
+          <p>
+            MieDiatek bukan sekadar mie instan—ini adalah solusi cepat, hangat,
+            dan nikmat untuk kamu yang butuh makan enak tanpa ribet.
+            Terinspirasi dari prosesor legendaris yang dikenal “cepat panas”,
+            MieDiatek hadir sebagai jawaban buat perut yang keroncongan dan hati
+            yang lelah. Kami percaya bahwa semangkuk mie bisa lebih dari sekadar
+            makanan. Ia bisa jadi teman begadang, penyelamat tanggal tua, bahkan
+            mood booster di tengah deadline yang menggila. Dengan cita rasa
+            khas, harga bersahabat, dan penyajian secepat loading bar sinyal 5G,
+            MieDiatek adalah sahabat setia di segala suasana. Kami hadir dari
+            anak-anak muda yang tahu rasanya lapar di jam 2 pagi. Maka dari itu,
+            kami buat MieDiatek: mie dengan rasa, kecepatan, dan kehangatan yang
+            kamu butuhkan.
+          </p>
+          <p>MieDiatek – Boost Rasa Overclock Kenikmatan.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2>Menu Kami</h2>
+      <p>Berbagai menu unggulan kami</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#" class="add-to-cart"
+              ><i data-feather="shopping-cart"></i
+            ></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/menu/mie-ayam.jpg"
+            alt="MieAyam"
+            class="menu-carrd-img"
+          />
+          <h3 class="menu-card-title">- Mie Ayam -</h3>
+          <div class="menu-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <p class="menu-card-price">IDR 15K <span>IDR 20K</span></p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#" class="add-to-cart"
+              ><i data-feather="shopping-cart"></i
+            ></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/menu/mie-tek-tek.jpg"
+            alt="MieAyam"
+            class="menu-carrd-img"
+          />
+          <h3 class="menu-card-title">- Mie Tek-Tek -</h3>
+          <div class="menu-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <p class="menu-card-price">IDR 12K <span>IDR 15K</span></p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#" class="add-to-cart"
+              ><i data-feather="shopping-cart"></i
+            ></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/menu/pizza-mie.jpg"
+            alt="MieAyam"
+            class="menu-carrd-img"
+          />
+          <h3 class="menu-card-title">- Pizza Mie -</h3>
+          <div class="menu-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <p class="menu-card-price">IDR 8K <span>IDR 10K</span></p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2>Kontak Kami</h2>
+      <p>
+        "Ada yang ingin ditanyakan atau langsung mau pesan MieDiatek? Klik
+        tombol di bawah ini dan ngobrol langsung dengan kami via WhatsApp!"
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d279.500209545368!2d104.7837407509684!3d-3.0036524307590007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b9d00412f4d19%3A0x3da354946cd8f1ec!2sGreen%20kost!5e1!3m2!1sid!2sid!4v1747070921889!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <button type="submit" id="btnKirim" class="btn">Kirim Pesan</button>
+          <script>
+            document
+              .getElementById("btnKirim")
+              .addEventListener("click", function (e) {
+                e.preventDefault(); // Cegah submit form
+                const nomor = "628980786600"; // Ganti dengan nomor WhatsApp kamu
+                const pesan = "Halo, saya ingin memesan MieDiatek."; // Pesan default
+                const url = `https://wa.me/${nomor}?text=${encodeURIComponent(
+                  pesan
+                )}`;
+                window.open(url, "_blank");
+              });
+          </script>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Cart Start -->
+    <div class="shopping-cart">
+      <template
+        x-for="(item,index) in $store.cart.items"
+        x-keys="index"
+      ></template>
+      <h4 x-show="!$store.cart.items.length" style="margin-top: 1rem">
+        Cart is Empty
+      </h4>
+      <h4 x-show="$store.cart.items.length">
+        Total : <span x-text="rupiah($store.cart.total)"></span>
+      </h4>
+    </div>
+    <!-- Cart End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="social">
+        <a href="https:/www.instagram.com/miediatek_" target="blank"
+          ><i data-feather="instagram"></i
+        ></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="">Kelompok 4</a>. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Modal Box Item Detail start-->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/1.jpg" alt="Menu 1" />
+          <div class="menu-content">
+            <h3>Menu 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe,
+              quam. Sint sunt corporis voluptate excepturi ducimus aut laborum
+              atque soluta quae, perferendis quaerat iusto voluptatibus.
+            </p>
+            <div class="menu-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+            <p class="menu-card-price">IDR 8K <span>IDR 15K</span></p>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end-->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
